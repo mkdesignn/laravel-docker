@@ -13,9 +13,9 @@ It has support for xdebug together with debugging, profiling and tracing.
 Following example expects that you did not specify a custom name when you cloned this repository
 and that you execute this command from your project root:
   
-ln -s $(pwd)/.env La_docker/.env
+ln -s $(pwd)/.env laravel-docker/.env
 
 NB! Docker Compose is not able to parse environment variables that are set between quotes.
 
-Good: app_name=ancestry
-Bad: app_name="ancestry"
+Good: app_name=testy
+Bad: app_name="testy"
